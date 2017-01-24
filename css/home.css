@@ -1,0 +1,59 @@
+@import url(fonts.css);
+
+/*border: 1px solid red;*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ----->>> Nav Bar <<<------*/
+nav a {
+    color: #bdbdbd;
+    text-decoration: inherit;
+    font-family: "Lato Regular";
+    font-size: 13px;
+}
+
+nav {
+    background-color: #1c1c1b;
+    height: 50px;
+}
+
+nav > div {
+    position: relative;
+    height: 100%;
+}
+
+#logo {
+    float: left;
+    position: relative;
+    top: 13%;
+    margin-left: 20px;
+}
+
+#logo > img {
+    height: 35px;
+    /*border: 1px solid red;*/
+}
+
+.nav-item {
+    float: right;
+    margin: 0 20px;
+    position: relative;
+    top: 30%; /* center x */
+}
+/* -----------------------------------*/
+
+
+
+/* ----->>> Centering <<<------*/
+.centered-container {
+    text-align: center;
+}
+
+.centered-child {
+    display: inline-block;
+}
+/* -----------------------------------*/
