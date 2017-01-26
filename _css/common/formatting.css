@@ -1,0 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.centered-container {
+    text-align: center;
+}
+
+.centered-child {
+    display: inline-block;
+}

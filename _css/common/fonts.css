@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Lato Bold";
+    src: url("/supporting-files/fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Lato Regular";
+    src: url("/supporting-files/fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato Hairline";
+    src: url("/supporting-files/fonts/Lato-Hairline.ttf");
+}
+
+@font-face {
+    font-family: "Lato Light";
+    src: url("/supporting-files/fonts/Lato-Light.ttf");
+}

@@ -1,0 +1,72 @@
+@import url(fonts.css);
+
+/********************************* Misc *********************************/
+
+nav {
+    height: 50px;
+    background-color: #1c1c1b;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.right-nav-item {
+    display: inline-block;
+}
+
+nav a {
+    color: #bdbdbd;
+    text-decoration: inherit;
+    font-family: "Lato Regular";
+    font-size: 13px;
+}
+
+.right-nav-item {
+    float: right;
+    height: 100%;
+}
+
+.right-nav-link {
+    padding: 0 20px;
+    display: block;
+    height: 100%;
+    padding-top: 16px;
+}
+
+.right-nav-link:hover, .right-nav-link:active {
+    background-color: #000000;
+}
+
+#logo-container {
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+    top: 12.5%;
+}
+
+#logo {
+    height: 35px;
+}
+
+
+/********************************* Dropdown *********************************/
+
+#dropdown {
+    background-color: #000000;
+    position: absolute;
+    margin-top: -16px;
+    display: block;
+    width: 100%;
+}
+
+.dropdown-content {
+    margin: 10px 20px 10px 20px;
+}
+
+.dropdown-link:hover, .dropdown-link:active {
+    color: red;
+}
