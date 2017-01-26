@@ -12,3 +12,26 @@
     font-family: "Lato Light";
     color: #7a7a7a;
 }
+
+.bio-container {
+    text-align: left;
+    margin: 0 70px 50px 70px;
+}
+
+.bio-title {
+    color: #383838;
+    font-family: "Lato Bold";
+    margin-bottom: 8px;
+    font-size: 16pt;
+
+}
+
+.bio-body {
+    margin: 0px;
+    word-wrap: break-word;
+    color: #7a7a7a;
+    font-family: "Lato Regular";
+    /*font-size: 9pt;*/
+    font-size: 12pt;
+    line-height: 150%;
+}
