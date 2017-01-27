@@ -31,6 +31,7 @@ $(document).ready(function() {
 
     // Check for active nav bar link based on URL
     for (i in navItems) {
+
         if(document.URL.indexOf(navItems[i]) != -1) {
             $("#" + navItems[i]).addClass("active");
         }
