@@ -17,3 +17,13 @@
     font-family: "Lato Light";
     src: url("/supporting-files/fonts/Lato-Light.ttf");
 }
+
+@font-face {
+    font-family: "Lato Thin Italic";
+    src: url("/supporting-files/fonts/Lato-ThinItalic.ttf");
+}
+
+@font-face {
+    font-family: "Lato Hairline Italic";
+    src: url("/supporting-files/fonts/Lato-HairlineItalic.ttf");
+}

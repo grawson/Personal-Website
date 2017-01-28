@@ -6,13 +6,12 @@ require_once __DIR__ . "/Base_Controller.php";
 class Home extends Base_Controller {
 
     private $bio_title = [
-        "Student", "Computer Scientist", "Designer"
+        "PROGRAMMER", "DESIGNER"
     ];
 
     private $bio_body = [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta, lacus non commodo varius, nisl massa suscipit ante, quis malesuada ligula felis in justo. Vivamus nunc massa, sollicitudin id facilisis sit amet, lacinia sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta, lacus non commodo varius, nisl massa suscipit ante, quis malesuada ligula felis in justo. Vivamus nunc massa, sollicitudin id facilisis sit amet, lacinia sit amet turpis.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta, lacus non commodo varius, nisl massa suscipit ante, quis malesuada ligula felis in justo. Vivamus nunc massa, sollicitudin id facilisis sit amet, lacinia sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta, lacus non commodo varius, nisl massa suscipit ante, quis malesuada ligula felis in justo. Vivamus nunc massa, sollicitudin id facilisis sit amet, lacinia sit amet turpis.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta, lacus non commodo varius, nisl massa suscipit ante, quis malesuada ligula felis in justo. Vivamus nunc massa, sollicitudin id facilisis sit amet, lacinia sit amet turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta, lacus non commodo varius, nisl massa suscipit ante, quis malesuada ligula felis in justo. Vivamus nunc massa, sollicitudin id facilisis sit amet, lacinia sit amet turpis."
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta, lacus non commodo varius, nisl massa suscipit ante, quis malesuada ligula felis in justo.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta, lacus non commodo varius, nisl massa suscipit ante, quis malesuada ligula felis in justo."
     ];
 
     function __construct() {

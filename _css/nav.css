@@ -3,8 +3,11 @@
 /********************************* Misc *********************************/
 
 nav {
+    position: absolute;
+    width: 100%;
     height: 50px;
-    background-color: #1c1c1b;
+    background-color: rgba(26,28,33,0.3);
+
 }
 
 nav > ul > li {
@@ -24,10 +27,10 @@ nav > ul {
 }
 
 nav a {
-    color: #bdbdbd;
+    color: #fff;
     text-decoration: inherit;
-    font-family: "Lato Regular";
-    font-size: 13px;
+    font-family: "Lato Light";
+    font-size: 11px;
 }
 
 .right-nav-link {
@@ -37,7 +40,7 @@ nav a {
 }
 
 .right-nav-link:hover, .dropdown-content:hover, .active {
-    background-color: #000000;
+    background-color: rgba(26,28,33,0.3);
     color: #ee8c72;
 }
 
@@ -55,9 +58,9 @@ nav a {
 /********************************* Dropdown *********************************/
 
 #dropdown {
-    background-color: #000000;
+    background-color: rgba(26,28,33,0.5);
     position: absolute;
-    width: 286px;
+    width: 296px;
     display: block;
     border-radius: 0 0 0 5px;
 

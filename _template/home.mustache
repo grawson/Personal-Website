@@ -10,6 +10,8 @@
 
 <body>
 
+
+
     {{> nav }}
 
     <!-- Image header -->
@@ -19,18 +21,23 @@
 
     <section class="centered-container">
 
-        <h1 id="project-title">Student • Computer Scientist • Designer</h1>
+        <div id="code">
+            <div>
 
-        <!-- Line break -->
-        <div class="line-break centered-child"></div>
 
-        <!-- Bio -->
-        {{#bio}}
-            <div class="bio-container">
-                <h3 class="bio-title">{{bio-title}}</h3>
-                <p class="bio-body">{{bio-body}}</p>
+
+            {{#bio}}
+                <table>
+                    <tr>
+                        <td class="bio-title">{{bio-title}}</td>
+                        <td class="bio-body">{{bio-body}}</td>
+                    </tr>
+                </table>
+            {{/bio}}
+
             </div>
-        {{/bio}}
+
+        </div>
 
     </section>
 
