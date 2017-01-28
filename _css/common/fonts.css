@@ -40,3 +40,8 @@ GOTHAM-LIGHTITALIC@font-face {
     font-family: "Gotham Light";
     src: url("/supporting-files/fonts/GOTHAM-LIGHT.ttf");
 }
+
+@font-face {
+    font-family: "Gotham Bold";
+    src: url("/supporting-files/fonts/GOTHAM-BOLD.ttf");
+}

@@ -6,7 +6,11 @@ $(document).ready(function() {
     var dropdown = $("#dropdown")
 
     var navItems = [
-        "spring-fair", "experience", "contact"
+        "experience", "contact"
+    ];
+
+    var dropdownItems = [
+        "spring-fair"
     ];
 
     /**************** func ************************/
@@ -33,6 +37,11 @@ $(document).ready(function() {
     for (i in navItems) {
         if(document.URL.indexOf(navItems[i]) != -1) {
             $("#" + navItems[i]).addClass("active");
+        }
+    }
+    for (i in dropdownItems) {
+        if(document.URL.indexOf(dropdownItems[i]) != -1) {
+            $("#" + dropdownItems[i]).addClass("dropdown-active");
         }
     }
 

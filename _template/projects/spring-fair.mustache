@@ -18,26 +18,23 @@
     </header>
 
     <!-- Features -->
-    <section class="centered-container">
+    <section >
 
-        <h1 id="project-title">iOS Application</h1>
-
-        <!-- Line break -->
-        <div class="line-break centered-child"></div>
+        <div class="break">
+            <span id="project-title">iOS Application</span>
+        </div>
 
         <!-- Circle icon features -->
-        <div>
+        <div class="centered-container">
             {{#feature}}
                 <div class="feature centered-child">
-                    <img src="/supporting-files/images/feature.png" alt="img">
+                    <img src="/supporting-files/images/feature.png" alt="img" id="feature-image">
                     <h3 class="feature-title">{{feature-title}}</h3>
                     <p class="feature-body">{{feature-body}}</p>
                 </div>
             {{/feature}}
         </div>
 
-        <!-- Line break -->
-        <div class="line-break centered-child"></div>
     </section>
 
 </body>

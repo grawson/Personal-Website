@@ -26,17 +26,9 @@ section {
 .bio-body {
     margin: 0;
     text-align: left;
-    color: #868c9e;
+    color: #7a809c;
     line-height: 150%;
     font-family: "Gotham Light";
-
-}
-
-.break {
-    background-color: #121317;
-    height: 50px;
-    width: 100%;
-    margin-bottom: 70px;
 
 }
 
