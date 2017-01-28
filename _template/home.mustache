@@ -10,8 +10,6 @@
 
 <body>
 
-
-
     {{> nav }}
 
     <!-- Image header -->
@@ -21,23 +19,18 @@
 
     <section class="centered-container">
 
-        <div id="code">
-            <div>
+        <div class="break"></div>
 
-
-
-            {{#bio}}
-                <table>
-                    <tr>
-                        <td class="bio-title">{{bio-title}}</td>
-                        <td class="bio-body">{{bio-body}}</td>
-                    </tr>
-                </table>
-            {{/bio}}
-
+        {{#bio}}
+            <div class="bio-container centered-child">
+                <h3 style="color: {{color}};" class="bio-title">{{bio-title}}</h3>
+                <p class="bio-body">{{bio-body}}</p>
             </div>
 
-        </div>
+        {{/bio}}
+
+        <!-- <div class="end-break"></div> -->
+
 
     </section>
 

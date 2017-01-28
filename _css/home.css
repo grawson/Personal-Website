@@ -7,58 +7,41 @@
     height: auto;
 }
 
-/*table, th, td {
-    border: 1px solid black;
-}*/
-
-#code {
-    background:url(/supporting-files/images/code.png);
-    background-repeat: repeat-y;
-    position: absolute;
-    /*height: 100%;*/
-    width: 100%;
-    background-size: 700px auto;
-    background-position: left;
-    /*border: 1px solid red;*/
-
+section {
+    margin-top: -3px;
 }
 
-#code > div {
-
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1a1c21+0,1a1c21+100&0+0,1+50 */
-    background: -moz-linear-gradient(left,  rgba(26,28,33,0) 0%, rgba(26,28,33,1) 50%, rgba(26,28,33,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  rgba(26,28,33,0) 0%,rgba(26,28,33,1) 50%,rgba(26,28,33,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  rgba(26,28,33,0) 0%,rgba(26,28,33,1) 50%,rgba(26,28,33,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001a1c21', endColorstr='#1a1c21',GradientType=1 ); /* IE6-9 */
-
-
-
-}
-
-table {
-    margin: 40px 0;
-    display: inline-block;
-    width: 90%;  /* or whatever your desired width is */
-}
-
-
-td {
-    vertical-align: top;
-    /*width: 50%;*/
-    text-align: left;
-    color: #e5e5e5;
-
+.bio-container {
+    width: 60%;
+    margin-bottom: 70px;
 }
 
 .bio-title {
-    font-family: "Lato Hairline Italic";
-    font-size: 40px;
-    padding-left: 30px;
+    margin: 0;
+    text-align: left;
+    font-family: "Gotham Light";
+    margin-bottom: 4px;
 }
 
 .bio-body {
-    width: 60%;
-    font-size: 14px;
-    padding-top: 7px;
-    font-family: "Lato Hairline";
+    margin: 0;
+    text-align: left;
+    color: #868c9e;
+    line-height: 150%;
+    font-family: "Gotham Light";
+
+}
+
+.break {
+    background-color: #121317;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 70px;
+
+}
+
+.end-break {
+    background-color: #121317;
+    height: 50px;
+    width: 100%;
 }

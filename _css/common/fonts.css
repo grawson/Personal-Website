@@ -1,4 +1,4 @@
-@font-face {
+GOTHAM-LIGHTITALIC@font-face {
     font-family: "Lato Bold";
     src: url("/supporting-files/fonts/Lato-Bold.ttf");
 }
@@ -26,4 +26,17 @@
 @font-face {
     font-family: "Lato Hairline Italic";
     src: url("/supporting-files/fonts/Lato-HairlineItalic.ttf");
+}
+
+
+
+
+@font-face {
+    font-family: "Gotham Light Italic";
+    src: url("/supporting-files/fonts/GOTHAM-LIGHTITALIC.ttf");
+}
+
+@font-face {
+    font-family: "Gotham Light";
+    src: url("/supporting-files/fonts/GOTHAM-LIGHT.ttf");
 }
