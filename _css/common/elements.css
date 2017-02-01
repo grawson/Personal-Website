@@ -1,8 +1,8 @@
 .line-break {
+    text-align: center;
+    background-color: #121317;
     height: 1px;
-    width: 90%;
-    background-color: #c2c2c2;
-    margin-bottom: 20px;
+    width: 100%;
 }
 
 .break {
@@ -14,5 +14,5 @@
 }
 
 p {
-    font-family: "Lato";
+    font-family: "Gotham Light";
 }

@@ -1,0 +1,65 @@
+.experiences-container {
+    display: inline-table;;
+    margin-top: 70px;
+}
+
+.experience {
+    text-align: left;
+    /*display: inline-table;*/
+    background-color: #202329;
+    width: 500px;
+    /*height: 350px;*/
+    margin: 20px;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
+}
+
+.experience > div {
+    margin: 20px;
+    padding-bottom: 8px;
+}
+
+.work-title, #work-header {
+    display: inline-block;
+    font-family: "Gotham Light";
+    color: #ff9279;
+}
+
+.project-title, #projects-header {
+    display: inline-block;
+    font-family: "Gotham Light";
+    color: #7fffb5;
+}
+
+#work-header, #projects-header {
+    font-size: 30px;
+    text-align: left;
+    display: block;
+    margin-left: 35px;
+}
+
+.experience-date {
+    display: inline-block;
+    float: right;
+    font-family: "Gotham";
+    color: #060608;
+}
+
+.experiences-container ul {
+    padding: 0 13px;
+}
+
+
+.experience-body {
+    margin: 0;
+    color: #7a809c;
+    font-family: "Gotham Light";
+    line-height: 150%;
+    font-size: 13px;
+}

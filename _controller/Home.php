@@ -15,7 +15,7 @@ class Home extends Base_Controller {
     ];
 
     private $colors = [
-        "#ff9279", "#b1ffb7"
+        "#ff9279", "#7fffb5"
     ];
 
     function __construct() {

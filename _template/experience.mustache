@@ -5,13 +5,68 @@
     {{> header }}
     <title>Gabriel Rawson</title>
     <meta name="Experience" content="Gabriel Rawson's Experience">
+    <link rel="stylesheet" href="/_css/experience.css">
 </head>
 
 <body>
 
-    {{> nav }}
+        {{> nav }}
 
-    <h3>Experience page coming soon...</h3>
-    
+    <section class="centered-container">
+
+        <div class="experiences-container">
+
+            <h1 id="work-header">WORK</h1>
+
+
+            {{#work}}
+                <div class="experience">
+                    <div>
+                        <div class="experience-header">
+                            <h4 class="work-title">{{work-title}}</h4>
+                            <h6 class="experience-date">{{experience-date}}</h6>
+                        </div>
+                        <div class="line-break"></div>
+
+                        {{#experience_body}}
+                        <ul>
+                            <li class="experience-body">{{body-item}}</li>
+                        </ul>
+                        {{/experience_body}}
+
+                    </div>
+                </div>
+
+            {{/work}}
+
+        </div>
+
+
+        <div class="experiences-container">
+
+            <h1 id="projects-header">PROJECTS</h1>
+            {{#project}}
+                <div class="experience">
+                    <div>
+                        <div class="experience-header">
+                            <h4 class="project-title">{{project-title}}</h4>
+                            <h6 class="experience-date">{{experience-date}}</h6>
+                        </div>
+                        <div class="line-break"></div>
+
+                        {{#experience_body}}
+                        <ul>
+                            <li class="experience-body">{{body-item}}</li>
+                        </ul>
+                        {{/experience_body}}
+
+                    </div>
+                </div>
+
+            {{/project}}
+        </div>
+
+    </section>
+
 </body>
 </html>
