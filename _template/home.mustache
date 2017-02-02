@@ -18,70 +18,38 @@
     </header>
 
     <!-- <div class="sidebar"></div> -->
-    <!-- <div class="break"></div> -->
 
 
     <section>
-        {{#bio}}
 
-            <div class="bio-container">
-                <img class="bio-img" src="/supporting-files/images/feature.png" alt="img">
-                <div>
-                    <h3 class="bio-title">{{bio-title}}</h3>
-                    <p class="bio-body">{{bio-body}}</p>
-                </div>
-            </div>
+        <div class="break centered-container">
+            <p id="contact">grawson@jhu.edu • 914-560-6688</p>
+        </div>
 
-        {{/bio}}
+
+            <table>
+                {{#bio}}
+
+
+                <tr>
+
+                    <td><img class="bio-img" src="/supporting-files/images/code-icon.png" alt="img"></td>
+                    <td class="sidebar"></td>
+                    <td>
+                        <h3 class="bio-title">{{bio-title}}</h3>
+                        <p class="bio-body">{{bio-body}}</p>
+                    </td>
+                </tr>
+
+                {{/bio}}
+
+
+            </table>
+
+
 
     </section>
 
-    <section id="footer">
-        <div>
-            <h3 id="contact-title">Gavi Rawson</h3>
-            <p class="contact-body">914-560-6688</p>
-            <p class="contact-body">grawson@jhu.edu</p>
-        </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-    <!-- <section class="centered-container">
-
-        <div class="break">
-            <span class="section-header">Programmer • Designer</span>
-        </div>
-
-        {{#bio}}
-            <div class="section-container centered-child">
-                <h3 style="color: {{color}};" class="title">{{bio-title}}</h3>
-                <p class="body">{{bio-body}}</p>
-            </div>
-
-        {{/bio}}
-
-    </section>
-
-    <section id="contact-section" class="centered-container">
-
-        <div class="break">
-            <span class="section-header">Contact</span>
-        </div>
-
-        <div class="section-container centered-child">
-            <img src="/supporting-files/images/feature.png" alt="img" id="feature-image">
-            <h3 class="title">Give Me a Ring</h3>
-            <p class="body">914-560-6688</p>
-            <p class="body">grawson@jhu.edu</p>
-        </div>
-    </section> -->
 
 </body>
 </html>

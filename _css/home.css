@@ -2,29 +2,44 @@
 
 /********************************* Misc *********************************/
 
+#contact {
+    margin: 0;
+    padding: 18px 0 0 0;
+    color: #363945;
+    font-size: 13px;
+}
+
 #header-img {
     width: 100%;
     height: auto;
 }
 
-section, .sidebar {
+section {
     margin-top: -3px;
 }
 
 .bio-img {
     height: 50px;
-    float: left;
-    margin-right: 40px;
 }
 
-.bio-container {
-    margin: 40px 60px 40px 60px;
-    font-family: "Gotham Light";
+table {
+    margin: 0 30px;
+    border-collapse:separate;
+    border-spacing: 10px 40px;
+}
+
+th {
+    text-align: left;
+}
+
+.sidebar {
+    background-color: #3a4b5c;
+    width: 1px;
 }
 
 .bio-title {
     margin: 0;
-    color: #ff9279;
+    color: #ff736f;
     margin-bottom: 4px;
 }
 
@@ -35,25 +50,14 @@ section, .sidebar {
     line-height: 150%;
 }
 
-#footer {
+footer {
     height: 100px;
     width: 100%;
     background-color: #121317;
 }
 
-#footer > div {
-    margin: 20px 60px 0 60px;
+footer > div {
+    /*border: 1px solid red;*/
+    margin: 20px 60px 0 40px;
     display: inline-block;
-}
-
-#contact-title {
-    color: #363945;
-    margin: 0 0 7px 0;
-
-}
-
-.contact-body {
-    margin: 0 0 5px 0;
-    color: #363945;
-    font-size: 13px;
 }
