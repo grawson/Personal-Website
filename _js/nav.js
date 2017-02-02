@@ -6,7 +6,7 @@ $(document).ready(function() {
     var dropdown = $("#dropdown")
 
     var navItems = [
-        "experience", "contact"
+        "experience", 
     ];
 
     var dropdownItems = [

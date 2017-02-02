@@ -9,6 +9,7 @@ section {
 .break {
     display: inline-block;;
     text-align: center;
+    margin-bottom: 70px;
 }
 
 #project-title {
