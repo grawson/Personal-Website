@@ -11,21 +11,20 @@ section {
     margin-top: -3px;
 }
 
-.bio-container {
+.section-container {
     width: 60%;
     margin-bottom: 70px;
+    text-align: left;
 }
 
-.bio-title {
+.title {
     margin: 0;
-    text-align: left;
     font-family: "Gotham Light";
     margin-bottom: 4px;
 }
 
-.bio-body {
+.body {
     margin: 0;
-    text-align: left;
     color: #7a809c;
     font-size: 13px;
     line-height: 150%;
@@ -37,4 +36,11 @@ section {
     background-color: #121317;
     height: 50px;
     width: 100%;
+}
+
+.section-header {
+    font-family: "Gotham Light";
+    color: #363945;
+    display: inline-block;
+    margin-top: 16px;
 }
