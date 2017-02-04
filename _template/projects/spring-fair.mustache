@@ -13,7 +13,7 @@
     {{> nav }}
 
     <!-- Image header -->
-    <header>
+    <header id="header-img-container">
         <img id="header-img" src="/supporting-files/images/header.png" alt="Camp Spring Fair iOS App">
     </header>
 
@@ -28,7 +28,7 @@
         <div class="centered-container">
             {{#feature}}
                 <div class="feature centered-child">
-                    <img src="/supporting-files/images/feature.png" alt="img" id="feature-image">
+                    <img src="/supporting-files/images/feature.png" alt="img" class="feature-image">
                     <h3 class="feature-title">{{feature-title}}</h3>
                     <p class="feature-body">{{feature-body}}</p>
                 </div>
@@ -37,5 +37,15 @@
 
     </section>
 
+    <section class="centered-container">
+        <div class="line-break centered-child"></div>
+
+        <div id="screenshot-container" class="centered-container">
+            <img src="/supporting-files/images/sf-screenshot-2.jpg" alt="screenshot" class="screenshot small-screenshot">
+            <img src="/supporting-files/images/sf-screenshot-1.jpg" alt="screenshot" class="screenshot large-screenshot">
+            <img src="/supporting-files/images/sf-screenshot-3.jpg" alt="screenshot" class="screenshot small-screenshot">
+
+        </div>
+    </section>
 </body>
 </html>

@@ -6,7 +6,7 @@ $(document).ready(function() {
     var dropdown = $("#dropdown")
 
     var navItems = [
-        "experience", 
+        "experience",
     ];
 
     var dropdownItems = [
@@ -44,6 +44,18 @@ $(document).ready(function() {
             $("#" + dropdownItems[i]).addClass("dropdown-active");
         }
     }
+
+    // hide dropdown on click-away
+    $('body').click(function(e){
+        if (e.target.id !== "dropdown-item" && e.target.id !== "projects") {
+            dropdown.hide();
+            projects.removeClass("active");
+        }
+    });
+
+    // Fade in the header image
+    $('#header-img').hide().fadeIn(2000);
+
 
     console.log("program complete");
 });
