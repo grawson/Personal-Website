@@ -1,36 +1,3 @@
-GOTHAM-LIGHTITALIC@font-face {
-    font-family: "Lato Bold";
-    src: url("/supporting-files/fonts/Lato-Bold.ttf");
-}
-
-@font-face {
-    font-family: "Lato Regular";
-    src: url("/supporting-files/fonts/Lato-Regular.ttf");
-}
-
-@font-face {
-    font-family: "Lato Hairline";
-    src: url("/supporting-files/fonts/Lato-Hairline.ttf");
-}
-
-@font-face {
-    font-family: "Lato Light";
-    src: url("/supporting-files/fonts/Lato-Light.ttf");
-}
-
-@font-face {
-    font-family: "Lato Thin Italic";
-    src: url("/supporting-files/fonts/Lato-ThinItalic.ttf");
-}
-
-@font-face {
-    font-family: "Lato Hairline Italic";
-    src: url("/supporting-files/fonts/Lato-HairlineItalic.ttf");
-}
-
-
-
-
 @font-face {
     font-family: "Gotham Light Italic";
     src: url("/supporting-files/fonts/GOTHAM-LIGHTITALIC.ttf");
@@ -44,4 +11,9 @@ GOTHAM-LIGHTITALIC@font-face {
 @font-face {
     font-family: "Gotham Bold";
     src: url("/supporting-files/fonts/GOTHAM-BOLD.ttf");
+}
+
+@font-face {
+    font-family: "Ailerons";
+    src: url("/supporting-files/fonts/Ailerons-Typeface.otf");
 }

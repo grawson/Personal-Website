@@ -2,7 +2,6 @@
 
 require_once __DIR__ . "/Base_Controller.php";
 
-
 class Home extends Base_Controller {
 
     private $bio_title = [
@@ -15,10 +14,6 @@ class Home extends Base_Controller {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta, lacus non commodo varius, nisl massa suscipit ante, quis malesuada ligula felis in justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta, lacus non commodo varius, nisl massa suscipit ante, quis malesuada ligula felis in justo."
     ];
 
-    // private $colors = [
-    //     "#ff9279", "#7fffb5"
-    // ];
-
     function __construct() {
 
         assert(count($this->bio_title) == count($this->bio_body));
@@ -26,8 +21,6 @@ class Home extends Base_Controller {
         for ($i=0; $i < count($this->bio_title); $i++) {
             $this->data["bio"][$i]["bio-title"] = $this->bio_title[$i];
             $this->data["bio"][$i]["bio-body"] = $this->bio_body[$i];
-            // $this->data["bio"][$i]["color"] = $this->colors[$i];
-
         }
     }
 }

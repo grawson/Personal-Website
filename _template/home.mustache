@@ -2,39 +2,47 @@
 
 <html lang="en">
 <head>
-    {{> header }}
+    {{>common/header}}
     <title>Gabriel Rawson</title>
     <meta name="Portfolio" content="Gabriel Rawson's Portfolio">
     <link rel="stylesheet" href="/_css/home.css">
+    <script src="/_js/home.js"></script>
 </head>
-
 <body>
 
-    {{> nav }}
+    <div id="fullpage">
 
-    <!-- Image header -->
-    <header id="header-img-container">
-        <img id="header-img" src="/supporting-files/images/gabriel-rawson.png" alt="Gabriel Rawson">
-    </header>
-
-    <section class="centered-container">
-
-        <div class="break centered-container">
-            <p id="contact">grawson@jhu.edu • 914-560-6688</p>
+        <!-- section 1 -->
+        <div id="s1" class="section">
+            <div id="name-container">
+                <div id="blurred-bar">
+                    <div id="arrow">
+                        <img src="/supporting-files/images/arrow.png" alt="">
+                    </div>
+                    <div id="name">GAVI.RAWSON</div>
+                </div>
+            </div>
         </div>
 
-        <table class="centered-child">
-            {{#bio}}
-            <tr>
-                <td><img class="bio-img" src="/supporting-files/images/code-icon.png" alt="img"></td>
-                <td class="sidebar"></td>
-                <td>
-                    <h3 class="bio-title">{{bio-title}}</h3>
-                    <p class="bio-body">{{bio-body}}</p>
-                </td>
-            </tr>
-            {{/bio}}
-        </table>
-    </section>
+        <!-- Section 2 -->
+        <div id ="s2" class="section">
+            <div id="section-wrapper">
+
+                <table>
+                    {{#bio}}
+                    <tr>
+                        <td><img class="bio-img" src="/supporting-files/images/code-icon.png" alt="img"></td>
+                        <td class="sidebar"></td>
+                        <td>
+                            <h3 class="bio-title">{{bio-title}}</h3>
+                            <p class="bio-body">{{bio-body}}</p>
+                        </td>
+                    </tr>
+                    {{/bio}}
+                </table>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
