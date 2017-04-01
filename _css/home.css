@@ -1,10 +1,12 @@
+/****** section 1 *************************************************/
+
 #s1 {
     background-image: url("/supporting-files/images/gabriel-rawson.jpg");
     background-size: cover;
     background-position: left;
 }
 
-#name-container {
+#header-container {
     margin: 0;
     height: 100%; width: 100%;
     display: flex;
@@ -36,41 +38,32 @@
     margin-right: 25%;
 }
 
+/****** section 2 *************************************************/
 
-/*section 2*/
-
-table {
-    height: 100%; width: 70%;
-    position: relative;
-    border-collapse:separate;
-    border-spacing: 10px 40px;
-
-}
-
-tr, th {
-    text-align: left;
-}
-
-#section-wrapper {
+#bio-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+table {
+    height: 100%; width: 70%;
+    border-spacing: 10px 10vh;
+    text-align: left;
+}
+
 .sidebar {
     background-color: #3a4b5c;
     width: 1px;
-    border-radius: 100px;
+    border-radius: 200%;
 }
 
 .bio-title {
-    margin: 0;
     color: #ff736f;
     margin-bottom: 4px;
 }
 
 .bio-body {
-    margin: 0;
     color: #7a809c;
     font-size: 13px;
     line-height: 150%;

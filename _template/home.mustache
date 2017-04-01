@@ -14,7 +14,7 @@
 
         <!-- section 1 -->
         <div id="s1" class="section">
-            <div id="name-container">
+            <div id="header-container">
                 <div id="blurred-bar">
                     <div id="arrow">
                         <img src="/supporting-files/images/arrow.png" alt="">
@@ -26,16 +26,16 @@
 
         <!-- Section 2 -->
         <div id ="s2" class="section">
-            <div id="section-wrapper">
+            <div id="bio-wrapper">
 
                 <table>
                     {{#bio}}
                     <tr>
-                        <td><img class="bio-img" src="/supporting-files/images/code-icon.png" alt="img"></td>
+                        <td><img class="bio-img" src="{{bio-icon}}" alt="img"></td>
                         <td class="sidebar"></td>
                         <td>
-                            <h3 class="bio-title">{{bio-title}}</h3>
-                            <p class="bio-body">{{bio-body}}</p>
+                            <div class="bio-title">{{bio-title}}</div>
+                            <div class="bio-body">{{bio-body}}</div>
                         </td>
                     </tr>
                     {{/bio}}
