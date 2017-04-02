@@ -4,28 +4,27 @@ $(document).ready(function() {
 
     nav = $("#nav");
     burger = $("#burger-bar");
-    aStart = "-80px";
-    aEnd = "0px";
-    aDuration = 400;
+    burgerImg = "/supporting-files/images/burger-bar.png"
+    burgerImgSelected = "/supporting-files/images/burger-bar-selected.png"
 
 
     // EVENTS **********************************************
 
     burger.click(function() {
-         if (nav.css("display") == "none") {
-             nav.css("margin-left", aStart);
-             nav.show();
-             nav.animate({ marginLeft: aEnd }, {
-                 duration: aDuration,
-            });
-         } else {
-             nav.animate({ marginLeft: aStart }, {
-                 duration: aDuration,
-                 complete: function() {
-                     nav.hide();
-                 }
-             });
-         }
+
+        // animate sliding nav bar
+        if (nav.hasClass("slide-in")) {
+            nav.removeClass("slide-in").addClass("slide-out");
+        } else {
+            nav.removeClass("slide-out").addClass("slide-in");
+        }
+
+        // Change burger bar image
+        if (burger.attr("src") == burgerImg) {
+            burger.attr("src", burgerImgSelected);
+        } else {
+            burger.attr("src", burgerImg);
+        }
     });
 
 
