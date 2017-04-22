@@ -33,14 +33,17 @@
 }
 
 #arrow {
-    height: 30px;
-    width: 30px;
+    height: 30px; width: 30px;
     margin-right: 25%;
 }
 
 #arrow:hover {
     cursor: pointer;
 }
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
 
 /****** section 2 *************************************************/
 

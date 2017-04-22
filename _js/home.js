@@ -7,5 +7,6 @@ $(document).ready(function() {
     // Click on arrow
     $("#arrow").click(function() {
         $.fn.fullpage.moveSectionDown();
+        $("#arrow").addClass("grow");
     });
 });
