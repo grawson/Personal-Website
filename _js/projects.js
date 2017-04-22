@@ -4,8 +4,4 @@ $(document).ready(function() {
         $('#fullpage').fullpage();
     });
 
-    // Click on arrow
-    $("#arrow").click(function() {
-        $.fn.fullpage.moveSectionDown();
-    });
 });

@@ -5,8 +5,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(0,0,0,.6);
-    background-color: #1a1c21;
+    background-color: #20232a;
     z-index: 1;
 }
 
@@ -32,8 +31,17 @@ nav {
 }
 
 .nav-item:hover {
-    background-color: #ff736f;
+    background-color: #101012;
     cursor: pointer;
+}
+
+.selected-indicator {
+    position: absolute;
+    margin-top: -3px;
+    width: 2px; height: 60px;
+    background-color: #ff736f;
+    display: none;
+
 }
 
 

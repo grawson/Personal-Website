@@ -14,6 +14,12 @@ $klein->respond('GET', '/', function () {
     $home->render("/home");
 });
 
+$klein->respond('GET', '/projects', function () {
+    $home = new Projects;
+    $home->render("/projects");
+});
+
+
 
 /**************** main ************************/
 

@@ -38,6 +38,10 @@
     margin-right: 25%;
 }
 
+#arrow:hover {
+    cursor: pointer;
+}
+
 /****** section 2 *************************************************/
 
 #bio-wrapper {

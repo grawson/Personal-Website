@@ -8,6 +8,7 @@ $(document).ready(function() {
     burgerImgSelected = "/supporting-files/images/burger-bar-selected.png"
 
 
+
     // EVENTS **********************************************
 
     burger.click(function() {
@@ -26,6 +27,40 @@ $(document).ready(function() {
             burger.attr("src", burgerImg);
         }
     });
+
+    getSelected();
+
+
+    // FUNC **********************************************
+
+    // select the button for the current page
+    function getSelected() {
+
+        // parse url
+        url = $(location).attr('href');
+        urlTokens = url.split("/");
+
+        // match tokens
+        var navItems = ["projects"];
+        var selected = false;
+        for (var i in urlTokens) {
+            for (var j in navItems) {
+                if (urlTokens[i] === navItems[j]) {
+                    $("#"+navItems[j]).show();
+                    selected = true;
+                    break;
+                }
+            }
+        }
+
+        // Home is selected
+        if (!selected) {
+            $("#home").show();
+        }
+    }
+
+
+
 
 
 
