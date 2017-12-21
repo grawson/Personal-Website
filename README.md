@@ -7,6 +7,7 @@ A portfolio in the works! All the graphics are home-made! Check out the demo of 
 
 1. `npm install`
 2. `bower install`
+2. `npm run build`
 
 # Run
 

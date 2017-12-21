@@ -5,7 +5,7 @@
   "main": "_server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npm run scss && npm start",
+    "build": "npm run scss && npm run bower",
     "scss": "node-sass _style/scss -o _style/css",
     "bower": "./node_modules/.bin/bower-requirejs -c ./_script/config.js",
     "start": "node index.js"
