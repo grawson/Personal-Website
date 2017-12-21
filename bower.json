@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "description": "Gavi Rawson's portfolio website.",
+  "main": "index.js",
+  "authors": [
+    "Gavi Rawson"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.3.5",
+    "jquery": "^3.2.1"
+  }
+}

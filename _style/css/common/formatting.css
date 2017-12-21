@@ -1,0 +1,21 @@
+body {
+  font-size: 80%; }
+
+p {
+  font: 1em "Avenir Next", "Regular"; }
+
+.center-xy {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.center-x {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.center-y {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }

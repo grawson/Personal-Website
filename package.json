@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Gavi Rawson's portfolio website.",
+  "main": "_server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run scss && npm start",
+    "scss": "node-sass _style/scss -o _style/css",
+    "bower": "./node_modules/.bin/bower-requirejs -c ./_script/config.js",
+    "start": "node index.js"
+  },
+  "author": "Gavi Rawson",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.8.2",
+    "bower-requirejs": "^1.2.0",
+    "express": "^4.16.2",
+    "mustache-express": "^1.2.5",
+    "node-sass": "^4.7.2"
+  }
+}

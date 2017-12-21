@@ -1,0 +1,73 @@
+html {
+  display: None; }
+
+.section {
+  background-color: #1e1d29; }
+
+.section-card {
+  background-color: #1e1d29;
+  height: 95%;
+  width: 95%;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 37px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 37px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 37px 2px rgba(0, 0, 0, 0.75); }
+
+.content-container {
+  height: auto;
+  width: 100%; }
+
+p {
+  color: white;
+  line-height: 2;
+  text-align: center;
+  padding: 15px 20% 0 20%;
+  display: block; }
+  @media (max-device-width: 450px) {
+    p {
+      font-size: 3em;
+      padding: 15px 5% 0 5%; } }
+
+#gavi-img {
+  background-image: url("/_assets/img/gavi_rawson.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#programmer-title {
+  width: auto;
+  padding-bottom: 15px;
+  display: block; }
+  @media (orientation: landscape) {
+    #programmer-title {
+      height: 7vh; } }
+  @media (orientation: portrait) {
+    #programmer-title {
+      height: 7vw; } }
+
+#computer {
+  width: auto;
+  padding-bottom: 15px;
+  display: block; }
+  @media (orientation: landscape) {
+    #computer {
+      height: 40vh; } }
+  @media (orientation: portrait) {
+    #computer {
+      height: 40vw; } }
+  @media (max-device-width: 450px) {
+    #computer {
+      width: 90%;
+      height: auto; } }
+
+#designer {
+  width: auto;
+  margin-bottom: 10px; }
+  @media (orientation: landscape) {
+    #designer {
+      height: 46vh; } }
+  @media (orientation: portrait) {
+    #designer {
+      height: 46vw; } }
