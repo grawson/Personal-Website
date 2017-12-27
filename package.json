@@ -8,7 +8,9 @@
     "build": "npm run scss && npm run bower",
     "scss": "node-sass _style/scss -o _style/css",
     "bower": "./node_modules/.bin/bower-requirejs -c ./_script/config.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "npm run scss && npm run start"
+
   },
   "author": "Gavi Rawson",
   "license": "ISC",
