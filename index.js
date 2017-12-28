@@ -3,8 +3,8 @@ var app = express();
 var mustacheExpress = require('mustache-express');
 
 // Red shift deployment
-var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
-var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
+const PORT = process.env.PORT || 3000;
+
 
 // Setup mustache templating
 app.engine('mustache', mustacheExpress());
@@ -18,11 +18,6 @@ app.use("/_script", express.static(__dirname + '/_script'));
 app.use("/_assets", express.static(__dirname + '/_assets'));
 app.use("/bower_components", express.static(__dirname + '/bower_components'));
 
+app.get('/', (req, res) => res.render('home/home'));
 
-app.get('/', function (req, res) {
-    res.render('home/home', {});
-});
-
-app.listen(server_port, server_ip_address, function () {
-    console.log( "Listening on " + server_ip_address + ", port " + server_port )
-});
+app.listen(PORT, () => console.log("Listening on " + PORT));
