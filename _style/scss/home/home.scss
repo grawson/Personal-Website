@@ -1,6 +1,10 @@
 @import "_style/scss/common/colors";
 
 $mobile: 450px;
+$margin-v: 3vh;
+$margin-h: 3vw;
+$arrow-height: 3vh;
+$nav-height: 10vh;
 
 // COMMON *********************************************************************
 
@@ -28,13 +32,13 @@ p {
   color: white;
   line-height: 2;
   text-align: center;
-  padding: 15px 20% 0 20%;
+  padding: 0 20% 0 20%;
   display: block;
 
 
   @media (max-device-width: $mobile) {
     font-size: 3em;
-    padding: 15px 5% 0 5%;
+    padding: 0 5% 0 5%;
   }
 }
 
@@ -56,24 +60,23 @@ p {
 
 #arrow {
   position: absolute;
-  bottom: -6%;
+  bottom: -($arrow-height + $margin-v);
   width: auto;
-  height: 3%;
-  padding-bottom: 3%;
+  height: $arrow-height;
+  padding-bottom: $margin-v;
 
   animation: 0.5s ease 1.15s 1 normal forwards running slide-up;
 }
 
 #nav {
-  height: 10%;
-  top: -10%;
+  height: $nav-height;
+  top: -$nav-height;
   width: 100%;
   background-color: $background;
   opacity: 0.58;
   position: absolute;
 
   animation: 0.5s ease 1.15s 1 normal forwards running slide-down;
-
 }
 
 // hack for safari
@@ -84,7 +87,7 @@ p {
 #gavi-rawson {
   height: 40%;
   width: auto;
-  padding: 0 0 0 20px;
+  padding-left: $margin-h;
 
   @media (max-device-width: $mobile) {  height: 25%;  }
 }
@@ -108,7 +111,7 @@ p {
 
 @keyframes slide-down {
   from {
-    top: -10%;
+    top: -$nav-height;
     opacity: 0;
     mix-blend-mode: overlay;
   }
@@ -121,7 +124,7 @@ p {
 
 @keyframes slide-up {
   from {
-    bottom: -6%;
+    bottom: -($arrow-height + $margin-v);
     opacity: 0;
   }
   to   {
@@ -134,9 +137,9 @@ p {
 
 // PROGRAMMER SECTION *********************************************************************
 
-#programmer-title {
+#programmer-title, #student {
   width: auto;
-  padding-bottom: 15px;
+  padding-bottom: $margin-v;
   display: block;
 
   @media (orientation: landscape) {  height: 7vh;  }
@@ -145,16 +148,15 @@ p {
 }
 
 #computer {
-  //max-height: 320px;
   width: auto;
-  padding-bottom: 15px;
+  padding-bottom: $margin-v;
   display: block;
 
   @media (orientation: landscape) {  height: 40vh;  }
   @media (orientation: portrait)  {  height: 40vw;  }
 
   @media (max-device-width: $mobile) {
-    width: 90%;
+    width: 80%;
     height: auto;
   }
 }
@@ -164,9 +166,24 @@ p {
 
 #designer {
   width: auto;
-  margin-bottom: 10px;
+  padding-bottom: $margin-v;
 
   @media (orientation: landscape) {  height: 46vh;  }
   @media (orientation: portrait)  {  height: 46vw;  }
 }
 
+
+// STUDENT SECTION *********************************************************************
+
+#grad-hat {
+  width: auto;
+  padding-bottom: $margin-v;
+
+  @media (orientation: landscape) {  height: 30vh;  }
+  @media (orientation: portrait)  {  height: 30vw;  }
+
+  @media (max-device-width: $mobile) {
+    width: 65%;
+    height: auto;
+  }
+}
