@@ -1,6 +1,6 @@
 # Personal Website
 
-A portfolio website! All the graphics are home-made! [Check it out live.](www.gavirawson.com)
+A portfolio website! All the graphics are home-made! [Check it out live.](http://www.gavirawson.com/)
 
 
 
