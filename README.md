@@ -1,6 +1,7 @@
 # Personal Website
 
-A portfolio in the works! All the graphics are home-made! Check out the demo of the current state.
+A portfolio website! All the graphics are home-made! [Check it out live.](www.gavirawson.com)
+
 
 
 # Install
